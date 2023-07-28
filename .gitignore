@@ -1,0 +1,10 @@
+# VS Code Files
+/.vscode
+/.history
+
+# Common Folders to ignore
+/bin
+/cache
+/obj
+/output
+/temp
