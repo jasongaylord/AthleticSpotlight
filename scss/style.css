@@ -36,6 +36,17 @@ header .logo a {
 header .logo a:hover {
   color: #8a5082;
 }
+header .social-icons {
+  position: absolute;
+  float: right;
+  right: 0;
+  top: 20px;
+  color: #6F5F9C;
+}
+header .social-icons a {
+  font-size: 30px;
+  padding: 0 10px;
+}
 header .navbar {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
   background-image: linear-gradient(#fff, #ddd);

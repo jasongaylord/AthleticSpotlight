@@ -56,6 +56,19 @@ header {
         }
     }
 
+    .social-icons {
+        position: absolute;
+        float: right;
+        right: 0;
+        top: 20px;
+        color: $color-purple;
+
+        a {
+            font-size: 30px;
+            padding: 0 10px;
+        }
+    }
+
     .navbar {
         background-image: linear-gradient(#fff, $color-lightgrey);
         border-top: 1px solid #eee;
