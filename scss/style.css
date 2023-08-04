@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Indie+Flower&family=Merriweather:wght@900&display=swap");
+html {
+  position: relative;
+  min-height: 100%;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.logo {
+  text-align: right;
+}
+.logo a {
+  font-family: "Indie Flower", cursive;
+  font-size: 60px;
+  color: #6F5F9C;
+}
+.logo a:hover {
+  color: #8a5082;
+}
+
+.navbar {
+  background-color: #6F5F9C;
+  text-align: right;
+}
+.navbar a {
+  color: #fff;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}/*# sourceMappingURL=style.css.map */

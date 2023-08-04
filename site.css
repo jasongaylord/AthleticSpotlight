@@ -6,31 +6,9 @@ font-family: 'Indie Flower', cursive;
 font-family: 'Merriweather', serif;
 */
 
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
-}
-
-
-
 
 a {
   color: #0077cc;
@@ -62,38 +40,4 @@ a {
 button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
-}
-
-
-
-
-
-
-
-
-.brand {
-  text-align: right;
-}
-
-.bar {
-  background-color: #6F5F9C;
-}
-
-.bar a { color: #fff; }
-
-a.navbar-brand, a.navbar-brand:hover, a.navbar-brand:visited {
-  /* white-space: normal;
-  text-align: center;
-  word-break: break-all; */
-  font-family: 'Indie Flower', cursive;
-  font-size: 60px;
-  color: #6F5F9C;
 }

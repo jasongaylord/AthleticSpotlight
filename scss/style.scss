@@ -1,2 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Indie+Flower&family=Merriweather:wght@900&display=swap');
 
+$desktop-minwidth: 768px;
+$color-purple: #6F5F9C;
+$color-lightpurple: #bfb8da;
+$color-purple-highlight: #8a5082;
+$color-blue: #33539e;
+$color-lightblue: #7facd6;
+$color-bluehighlight: #758eb7;
+$color-pink: #a5678e;
+$color-lightpink: #e8b7d4;
+$color-pinkhighlight: #ff7b89;
+$color-teal: #a4cad2;
+$color-grey: #444;
+$color-lightgrey: #888;
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-size: 14px;
+
+    @media (min-width: $desktop-minwidth) {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.logo {
+    text-align: right;
+
+    a {
+        font-family: 'Indie Flower', cursive;
+        font-size: 60px;
+        color: $color-purple;
+
+        &:hover {
+            color: $color-purple-highlight;
+        }
+    }
+}
+
+.navbar {
+    background-color: $color-purple;
+    text-align: right;
+
+    a {
+        color: #fff;
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
