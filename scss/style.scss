@@ -12,10 +12,11 @@ $color-lightpink: #e8b7d4;
 $color-pinkhighlight: #ff7b89;
 $color-teal: #a4cad2;
 $color-grey: #444;
-$color-lightgrey: #888;
+$color-lightgrey: #ddd;
 
 html {
     position: relative;
+    font-family: 'Cabin', sans-serif;
     min-height: 100%;
     font-size: 14px;
 
@@ -28,27 +29,58 @@ body {
     margin-bottom: 60px;
 }
 
-.logo {
-    text-align: right;
 
-    a {
-        font-family: 'Indie Flower', cursive;
-        font-size: 60px;
-        color: $color-purple;
+header {
+    .collage {
+        max-width: 380px;
+        float: left;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 20;
+    }
 
-        &:hover {
-            color: $color-purple-highlight;
+    .logo {
+        position: relative;
+        text-align: center;
+
+        a {
+            font-family: 'Indie Flower', cursive;
+            font-size: 60px;
+            color: $color-purple;
+            text-decoration: none;
+
+            &:hover {
+                color: $color-purple-highlight;
+            }
+        }
+    }
+
+    .navbar {
+        background-image: linear-gradient(#fff, $color-lightgrey);
+        border-top: 1px solid #eee;
+        text-align: right;
+
+        a {
+            color: $color-purple;
+            font-weight: bold;
+        }
+
+        .filler {
+            flex-grow: 1;
         }
     }
 }
 
-.navbar {
-    background-color: $color-purple;
-    text-align: right;
+.leaderboard {
+    background-image: linear-gradient(140deg, $color-lightpurple 20%, $color-lightblue 50%, $color-lightpink 80%);
+    height: 196px;
 
-    a {
-        color: #fff;
-    }
+
+}
+
+.main-content {
+    background-color: $color-lightgrey;
 }
 
 .footer {
