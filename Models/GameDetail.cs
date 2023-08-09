@@ -1,8 +1,6 @@
 namespace AthleticSpotlight.Models;
 
-public class SoftballGameDetails {
-  public int Season { get; set; }
-  public DateTime GameTime { get; set; }
+public class GameDetail {
   public string Opponent { get; set; }
   public string Home { private get; set; }
   public bool IsHomeTeam { get { return this.Home.ToUpper() == "Y"; } }
@@ -12,9 +10,7 @@ public class SoftballGameDetails {
   public int TeamScore { get; set; }
   public string Recap { get; set; }
 
-  public SoftballGameDetails() {
-    Season = 0;
-    GameTime = new DateTime();
+  public GameDetail() {
     Opponent = "";
     Home = "Y";
     Win = "N";

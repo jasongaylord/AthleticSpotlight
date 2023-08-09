@@ -10,13 +10,28 @@ namespace AthleticSpotlight.Core;
 
 public static class DataProcessor {
     public static List<Season> Seasons { get; set; }
+    public static List<BaseballSoftballGame> BaseballSoftballGames { get; set; }
 
     public static bool Run() {
         var directory = Directory.GetCurrentDirectory() + "\\Data\\";
         var deserializer = new DeserializerBuilder().IgnoreUnmatchedProperties().Build();
 
-        var Seasons = new List<Season>();
+        Seasons = new List<Season>();
+        BaseballSoftballGames = new List<BaseballSoftballGame>();
 
+        // Process Seasons First
+        var seasonFileName = directory + "_season.yml";
+        var seasonContents = File.ReadAllText(seasonFileName);
+        var seasonSr = new StringReader(seasonContents);
+        var seasonParser = new Parser(seasonSr);
+        seasonParser.Consume<StreamStart>();
+        while (seasonParser.Accept<DocumentStart>()) {
+            var season = deserializer.Deserialize<Season>(seasonParser);
+            Seasons.Add(season);
+        }
+
+
+        // Loop through other files
         foreach (string file in Directory.EnumerateFiles(directory, "*.yml"))
         {
             var fileName = file.Replace(directory, "").ToLower();
@@ -25,33 +40,23 @@ public static class DataProcessor {
             var contents = File.ReadAllText(file);
             var sr = new StringReader(contents);
 
-            // Process Season.YML file
-            if (fileName == "season.yml") {
-                var seasonParser = new Parser(sr);
-
-                seasonParser.Consume<StreamStart>();
-
-                while (seasonParser.Accept<DocumentStart>()) {
-                    var season = deserializer.Deserialize<Season>(seasonParser);
-                    Seasons.Add(season);
-                }
-            }
-
             // Process Game Files
             DateTime dt;
             if (DateTime.TryParseExact(fileNameOnly, "yyyyddMMhhmm", CultureInfo.InvariantCulture, DateTimeStyles.None, out dt)) {
                 var eventStruct = deserializer.Deserialize<EventStruct>(sr);
+                var srProper = new StringReader(contents);
 
                 var season = new Season();
                 season = Seasons.SingleOrDefault(w => w.Id == eventStruct.Season);
                 
-                Console.WriteLine("Season: " + eventStruct.Season.ToString() + " , Season Type: " + season.Sport);
+                if (season.Sport == "Baseball" || season.Sport == "Softball") {
+                    var baseballSoftballGame = deserializer.Deserialize<BaseballSoftballGame>(srProper);
+                    BaseballSoftballGames.Add(baseballSoftballGame);
+                }
             }
-
-
-            Console.WriteLine(Seasons.Count());
-            Console.WriteLine(file);
         }
+
+        Console.WriteLine(BaseballSoftballGames[0].GameDetail.Opponent);
 
         return true;
     }
