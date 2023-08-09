@@ -1,4 +1,5 @@
 using System.IO;
+using System.Globalization;
 using AthleticSpotlight.Models;
 using YamlDotNet.Core;
 using YamlDotNet.Core.Events;
@@ -12,7 +13,7 @@ public static class DataProcessor {
 
     public static bool Run() {
         var directory = Directory.GetCurrentDirectory() + "\\Data\\";
-        var deserializer = new DeserializerBuilder().Build();
+        var deserializer = new DeserializerBuilder().IgnoreUnmatchedProperties().Build();
 
         var Seasons = new List<Season>();
 
@@ -21,9 +22,12 @@ public static class DataProcessor {
             var fileName = file.Replace(directory, "").ToLower();
             var fileNameOnly = fileName.Replace(".yml", "");
 
+            var contents = File.ReadAllText(file);
+            var sr = new StringReader(contents);
+
+            // Process Season.YML file
             if (fileName == "season.yml") {
-                var seasonContents = File.ReadAllText(file);
-                var seasonParser = new Parser(new StringReader(seasonContents));
+                var seasonParser = new Parser(sr);
 
                 seasonParser.Consume<StreamStart>();
 
@@ -33,7 +37,17 @@ public static class DataProcessor {
                 }
             }
 
-            
+            // Process Game Files
+            DateTime dt;
+            if (DateTime.TryParseExact(fileNameOnly, "yyyyddMMhhmm", CultureInfo.InvariantCulture, DateTimeStyles.None, out dt)) {
+                var eventStruct = deserializer.Deserialize<EventStruct>(sr);
+
+                var season = new Season();
+                season = Seasons.SingleOrDefault(w => w.Id == eventStruct.Season);
+                
+                Console.WriteLine("Season: " + eventStruct.Season.ToString() + " , Season Type: " + season.Sport);
+            }
+
 
             Console.WriteLine(Seasons.Count());
             Console.WriteLine(file);
