@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using AthleticSpotlight.Core;
 using AthleticSpotlight.Models;
 
 namespace AthleticSpotlight.Controllers;
@@ -15,6 +16,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        DataProcessor.Run();
         return View();
     }
 
