@@ -1,0 +1,36 @@
+Season: 1
+Detail:
+  Opponent: TBD
+  Home: N
+  Result: L
+  OpponentScore: 4
+  TeamScore: 0
+  Recap: | 
+    The team lost in the semi-finals against the winner of the tournament.
+  PlayRecap: |
+    Strikes out swinging (Ball 1, Ball 2, Ball 3, Strike 1 looking, Strike 2 looking, Strike 3 swinging).
+    Grounds out to second baseman (In play).
+    Strikes out looking (Strike 1 swinging, Ball 1, Foul, Ball 2, Foul, Strike 3 looking).
+Stats:
+  Hitting:
+    AB: 3
+    R: 0
+    H: 0
+    RBI: 0
+    BB: 0
+    HBP: 0
+    SO: 2
+    SOL: 1
+    SF: 0
+    2B: 0
+    3B: 0
+    HR: 0
+    SB: 0
+    CS: 0
+  Fielding:
+    PO: 1
+    A: 0
+    E: 0
+    DP: 0
+  Position:
+    SS: 6

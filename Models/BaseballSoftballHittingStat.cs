@@ -37,9 +37,21 @@ public class BaseballSoftballHittingStat {
     /// </summary>
     public int HBP { get; set; }
     /// <summary>
+    /// Sacrifice
+    /// </summary>
+    public int SAC { get; set; }
+    /// <summary>
     /// Strikeout
     /// </summary>
     public int SO { get; set; }
+    /// <summary>
+    /// Strikeout looking. These are already including in strikeouts. 
+    /// </summary>
+    public int SOL { get; set; }
+    /// <summary>
+    /// Reached on a drop 3rd strike.
+    /// </summary>
+    public int D3 { get; set; }
     /// <summary>
     /// Sacrifice Fly
     /// </summary>

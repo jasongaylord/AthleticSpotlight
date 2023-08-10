@@ -1,0 +1,41 @@
+Season: 1
+Detail:
+  Opponent: South Jersey Sharks 09 Otto 14u
+  Home: Y
+  Result: W
+  OpponentScore: 3
+  TeamScore: 4
+  Recap: |
+    Addison Gaylord scored the game winning run in the bottom of the 9th inning to advance to the semi-finals.
+  PlayRecap: |
+    Sacrifice bunt to third baseman advancing runner to third base (In play).
+    Grounds out to first baseman (Ball 1, Foul, Ball 2, In play).
+    Strikes out swinging (Strike 1 looking, foul, strike 3 swinging).
+    Grounds out to second baseman (Foul, foul, foul, in play).
+    Placed on 2nd base to start 9th inning, advanced to 3rd on bunt, scores on a single to center.
+Stats:
+  Hitting:
+    AB: 3
+    R: 1
+    H: 0
+    RBI: 0
+    BB: 0
+    HBP: 0
+    SAC: 1
+    SO: 1
+    SOL: 0
+    SF: 0
+    2B: 0
+    3B: 0
+    HR: 0
+    SB: 0
+    CS: 0
+  Fielding:
+    PO: 6
+    A: 0
+    E: 0
+    DP: 0
+    SB: 1
+    CS: 1
+  Position:
+    C: 9

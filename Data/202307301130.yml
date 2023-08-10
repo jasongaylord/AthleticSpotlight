@@ -2,11 +2,14 @@ Season: 1
 Detail:
   Opponent: NEPA Rivercats 14u
   Home: Y
-  Win: Y
+  Result: W
   OpponentScore: 0
   TeamScore: 2
   Recap: | 
     Addison Gaylord collected one hit for Max Impact. She also scored the game winning run for Max Impact in the first inning.
+  PlayRecap: |
+    Singles on a line drive to right fielder (In Play).
+    Flies out to center fielder (Ball 1, Ball 2, Strike 1 Looking, In Play).
 Stats:
   Hitting:
     AB: 1

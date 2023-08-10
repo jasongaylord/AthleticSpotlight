@@ -2,11 +2,15 @@ Season: 1
 Detail:
   Opponent: 2023 LFYAL All-Stars 14u
   Home: Y
-  Win: Y
+  Result: W
   OpponentScore: 0
   TeamScore: 11
   Recap: | 
     Addison Gaylord collected two hits.
+  PlayRecap: |
+    Singles on a ground ball to shortstop (In play).
+    Strikes out looking (Foul, Foul, Ball 1, Strike 3 looking).
+    Singles on a line drive to center fielder (In play).
 Stats:
   Hitting:
     AB: 3
@@ -16,6 +20,7 @@ Stats:
     BB: 0
     HBP: 0
     SO: 1
+    SOL: 1
     SF: 0
     2B: 0
     3B: 0

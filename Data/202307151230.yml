@@ -2,10 +2,14 @@ Season: 1
 Detail:
   Opponent: Pittsburgh Lady Roadrunners 12u
   Home: N
-  Win: Y
+  Result: W
   OpponentScore: 2
   TeamScore: 6
-  Recap: | 
+  Recap:
+  PlayRecap: |
+    Hit by pitch (Ball 1).
+    Pops up to first baseman (In play).
+    Grounds out to pitcher (Ball 1, Strike 1 looking, Ball 2, In play).
 Stats:
   Hitting:
     AB: 2

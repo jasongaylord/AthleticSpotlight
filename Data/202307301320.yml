@@ -2,13 +2,17 @@ Season: 1
 Detail:
   Opponent: Central PA Xplosion
   Home: Y
-  Win: Y
+  Result: W
   OpponentScore: 1
   TeamScore: 11
   Recap: | 
     Addison Gaylord collected two hits for Max Impact White 14u. 
      
     Max Impact White 14u took first place in the weekend tournament.
+  PlayRecap: |
+    Singles on a hard ground ball to left fielder (Ball 1, Foul, Foul, In Play).
+    Walks (Ball 1, Ball 2, Ball 3, Ball 4).
+    Singles on a hard ground ball to left fielder (Strike 1 Looking, In Play).
 Stats:
   Hitting:
     AB: 2

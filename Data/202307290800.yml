@@ -1,12 +1,16 @@
 Season: 1
 Detail:
-  Opponent: NEPA Rivercats 14u
+  Opponent: Pink Lady Diamonds
   Home: Y
-  Win: Y
+  Result: W
   OpponentScore: 2
   TeamScore: 14
   Recap: | 
     Addison Gaylord was a force in the lineup collecting three hits for Max Impact White 14u. Addison stole two bases.
+  PlayRecap: |
+    Singles on a hard ground ball to left fielder (Strike 1 looking, In Play).
+    Singles on a line drive to left fielder (Ball 1, In Play).
+    Singles on a bunt to third baseman (Ball 1, Foul, In Play).
 Stats:
   Hitting:
     AB: 3

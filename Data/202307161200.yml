@@ -2,13 +2,17 @@ Season: 1
 Detail:
   Opponent: Forest Hill Heat 14u
   Home: Y
-  Win: Y
+  Result: W
   OpponentScore: 1
   TeamScore: 7
   Recap: | 
     Addison Gaylord stole two bases.
 
     Max Impact White 14u took first place in the silver bracket of the weekend tournament.
+  PlayRecap: |
+    Walks (Ball 1, Foul, Ball 2, Ball 3, Ball 4).
+    Walks (Ball 1, Ball 2, Ball 3, Ball 4).
+    Grounds out to second baseman (Ball 1, Strike 1 Looking, Strike 2 swinging, In Play).
 Stats:
   Hitting:
     AB: 1

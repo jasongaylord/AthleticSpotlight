@@ -2,10 +2,15 @@ Season: 1
 Detail:
   Opponent: Lady Diamond Pros 14u
   Home: Y
-  Win: Y
+  Result: W
   OpponentScore: 1
   TeamScore: 15
   Recap: 
+  PlayRecap: |
+    Grounds out to third baseman (Strike 1 looking, Ball 1, Ball 2, Ball 3, Strike 2 looking, In Play).
+    Courtesy runner for pitcher, scores.
+    Singles on line drive to left fielder (Foul, Ball 1, In Play).
+    Grounds out to pitcher (In Play).
 Stats:
   Hitting:
     AB: 3

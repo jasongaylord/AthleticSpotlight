@@ -2,13 +2,16 @@ Season: 1
 Detail:
   Opponent: Riverfront Rampage 14u
   Home: Y
-  Win: Y
+  Result: W
   OpponentScore: 1
   TeamScore: 6
   Recap: | 
     Addison Gaylord made the most plays with four.
 
     The team finished 3-0 on Saturday and headed into Sunday as the 1 seed.
+  PlayRecap: |
+    Walks (Strike 1 looking, Ball 1, Foul, Ball 2, Ball 3, Ball 4).
+    Flies out to right fielder (Ball 1, Strike 1 Looking, Ball 2, In Play).
 Stats:
   Hitting:
     AB: 1
