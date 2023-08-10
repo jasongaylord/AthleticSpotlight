@@ -1,0 +1,28 @@
+Season: 1
+Detail:
+  Opponent: LAC St Louis Lions 14u
+  Home: Y
+  Win: N
+  OpponentScore: 5
+  TeamScore: 4
+  Recap: 
+Stats:
+  Hitting:
+    AB: 3
+    R: 1
+    H: 2
+    RBI: 1
+    BB: 0
+    HBP: 0
+    SO: 0
+    SF: 0
+    2B: 0
+    3B: 0
+    HR: 0
+    SB: 2
+    CS: 0
+  Fielding:
+    PO: 1
+    A: 1
+    E: 0
+    DP: 1
