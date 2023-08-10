@@ -5,7 +5,7 @@ Detail:
   Win: Y
   OpponentScore: 0
   TeamScore: 7
-  Recap: 
+  Recap: Addison Gaylord led Max Impact White 14u with two walks.
 Stats:
   Hitting:
     AB: 1
@@ -22,4 +22,5 @@ Stats:
     SB: 0
     CS: 0
   Fielding:
+    PO: 4
     E: 0
