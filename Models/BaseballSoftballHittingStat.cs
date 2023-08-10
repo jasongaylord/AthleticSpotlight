@@ -17,6 +17,10 @@ public class BaseballSoftballHittingStat {
     /// </summary>
     public int H { get; set; }
     /// <summary>
+    /// Batting Average
+    /// </summary>
+    public string AVG { get { return String.Format("{0:#,0.000}", ((double)this.H/(double)this.AB)); } }
+    /// <summary>
     /// Runs
     /// </summary>
     public int R { get; set; }

@@ -42,7 +42,7 @@ public static class DataProcessor {
 
             // Process Game Files
             DateTime dt;
-            if (DateTime.TryParseExact(fileNameOnly, "yyyyddMMhhmm", CultureInfo.InvariantCulture, DateTimeStyles.None, out dt)) {
+            if (DateTime.TryParseExact(fileNameOnly, "yyyyMMddHHmm", CultureInfo.InvariantCulture, DateTimeStyles.None, out dt)) {
                 var eventStruct = deserializer.Deserialize<EventStruct>(sr);
                 var srProper = new StringReader(contents);
 
@@ -55,6 +55,13 @@ public static class DataProcessor {
                 }
             }
         }
+
+        var TotalStat = new BaseballSoftballStat();
+        foreach (var tmpGame in BaseballSoftballGames) {
+            TotalStat.Hitting.AB += tmpGame.Stat.Hitting.AB;
+            TotalStat.Hitting.H += tmpGame.Stat.Hitting.H;
+        }
+        Console.WriteLine(TotalStat.Hitting.AVG);
 
         return true;
     }
