@@ -1,18 +1,18 @@
 Season: 1
 Detail:
-  Opponent: Lady Diamond Pros 14u
+  Opponent: BDE Regional 14u
   Home: Y
   Win: Y
-  OpponentScore: 1
-  TeamScore: 15
-  Recap: 
+  OpponentScore: 2
+  TeamScore: 12
+  Recap: | 
 Stats:
   Hitting:
-    AB: 3
-    R: 2
-    H: 1
-    RBI: 0
-    BB: 0
+    AB: 2
+    R: 1
+    H: 0
+    RBI: 1
+    BB: 1
     HBP: 0
     SO: 0
     SF: 0
@@ -23,8 +23,8 @@ Stats:
     CS: 0
   Fielding:
     PO: 3
-    A: 1
+    A: 0
     E: 0
-    DP: 1
+    DP: 0
   Position:
-    SS: 3
+    C: 4

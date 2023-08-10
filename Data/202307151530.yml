@@ -1,17 +1,18 @@
 Season: 1
 Detail:
-  Opponent: Southern Black Bears 14u
+  Opponent: PAL Enforcers
   Home: Y
-  Win: Y
+  Win: N
   OpponentScore: 5
-  TeamScore: 8
-  Recap: The team finished 3-0 on Saturday and headed into Sunday as the 1 seed. 
+  TeamScore: 3
+  Recap: | 
+    The team finished 2-1 on Saturday and headed into Sunday as the 4 seed.
 Stats:
   Hitting:
     AB: 3
     R: 0
     H: 0
-    RBI: 1
+    RBI: 0
     BB: 0
     HBP: 0
     SO: 0
@@ -22,8 +23,10 @@ Stats:
     SB: 0
     CS: 0
   Fielding:
-    PO: 5
+    PO: 3
     A: 0
     E: 0
+    DP: 0
   Position:
-    C: 5
+    SS: 3
+    C: 2

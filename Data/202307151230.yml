@@ -1,0 +1,30 @@
+Season: 1
+Detail:
+  Opponent: Pittsburgh Lady Roadrunners 12u
+  Home: N
+  Win: Y
+  OpponentScore: 2
+  TeamScore: 6
+  Recap: | 
+Stats:
+  Hitting:
+    AB: 2
+    R: 1
+    H: 0
+    RBI: 0
+    BB: 0
+    HBP: 1
+    SO: 0
+    SF: 0
+    2B: 0
+    3B: 0
+    HR: 0
+    SB: 1
+    CS: 0
+  Fielding:
+    PO: 0
+    A: 0
+    E: 0
+    DP: 0
+  Position:
+    SS: 4

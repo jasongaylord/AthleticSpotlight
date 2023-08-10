@@ -1,20 +1,21 @@
 Season: 1
 Detail:
-  Opponent: Southern Black Bears 14u
+  Opponent: 2023 LFYAL All-Stars 14u
   Home: Y
   Win: Y
-  OpponentScore: 5
-  TeamScore: 8
-  Recap: The team finished 3-0 on Saturday and headed into Sunday as the 1 seed. 
+  OpponentScore: 0
+  TeamScore: 11
+  Recap: | 
+    Addison Gaylord collected two hits.
 Stats:
   Hitting:
     AB: 3
-    R: 0
-    H: 0
+    R: 1
+    H: 2
     RBI: 1
     BB: 0
     HBP: 0
-    SO: 0
+    SO: 1
     SF: 0
     2B: 0
     3B: 0
@@ -22,8 +23,9 @@ Stats:
     SB: 0
     CS: 0
   Fielding:
-    PO: 5
+    PO: 6
     A: 0
     E: 0
+    DP: 0
   Position:
-    C: 5
+    C: 4
