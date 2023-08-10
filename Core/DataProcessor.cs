@@ -60,7 +60,8 @@ public static class DataProcessor {
         TotalStat.Hitting.H = BaseballSoftballGames.Sum(s => s.Stat.Hitting.H);
         Console.WriteLine(TotalStat.Hitting.AVG);
 
-        Console.WriteLine(BaseballSoftballGames[4].GameDetail.Recap);
+        //Console.WriteLine(BaseballSoftballGames.Count());
+        //Console.WriteLine(BaseballSoftballGames[4].GameDetail.Recap);
 
         return true;
     }

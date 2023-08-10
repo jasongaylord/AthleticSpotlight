@@ -28,4 +28,12 @@ public class BaseballSoftballFieldingStat {
     /// Fielding Chances
     /// </summary>
     public int FC { get { return PO + A + E; } }
+    /// <summary>
+    /// For catcher's, stolen bases against
+    /// </summary>
+    public int SB { get; set; }
+    /// <summary>
+    /// For catcher's, caught stealing against (also included in Assists)
+    /// </summary>
+    public int CS { get; set; }
 }
