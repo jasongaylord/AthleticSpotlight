@@ -56,8 +56,6 @@ public static class DataProcessor {
             }
         }
 
-        Console.WriteLine(BaseballSoftballGames[0].GameDetail.Opponent);
-
         return true;
     }
 
