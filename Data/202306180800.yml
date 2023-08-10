@@ -1,0 +1,38 @@
+Season: 1
+Detail:
+  Opponent: Phantoms 14u Weist
+  Home: Y
+  Result: W
+  OpponentScore: 3
+  TeamScore: 5
+  Recap: Addison Gaylord collected two hits for Max Impact 14u. Addison Gaylord stole three bases.
+  PlayRecap: |
+    Singles on a ground ball to right fielder (In Play).
+    Steals 2nd, 3rd, and home on the same batter.
+    Triples on a fly ball to right fielder (Strike 1 Looking, Ball 1, Ball 2, Strike 2 Looking, Foul, In Play).
+    Grounds out to pitcher (In Play).
+Stats:
+  Hitting:
+    AB: 3
+    R: 2
+    H: 2
+    RBI: 0
+    BB: 0
+    HBP: 0
+    SO: 0
+    SOL: 0
+    SAC: 0
+    D3: 0
+    SF: 0
+    2B: 0
+    3B: 1
+    HR: 0
+    SB: 3
+    CS: 0
+  Fielding:
+    PO: 2
+    A: 2
+    E: 0
+    DP: 0
+  Position:
+    SS: 7
