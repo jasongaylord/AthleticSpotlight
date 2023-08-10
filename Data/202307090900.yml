@@ -23,7 +23,7 @@ Stats:
     HBP: 0
     SAC: 1
     SO: 1
-    SOL: 0
+    KL: 0
     SF: 0
     2B: 0
     3B: 0
@@ -31,7 +31,7 @@ Stats:
     SB: 0
     CS: 0
   Fielding:
-    PO: 6
+    PO: 7
     A: 0
     E: 0
     DP: 0

@@ -27,7 +27,11 @@ public class BaseballSoftballFieldingStat {
     /// <summary>
     /// Fielding Chances
     /// </summary>
-    public int FC { get { return PO + A + E; } }
+    public int TC { get { return PO + A + E; } }
+    /// <summary>
+    /// Fielding Percentage
+    /// </summary>
+    public string FPCT { get { return String.Format("{0:#,0.000}", ((double)(PO + A)/(double)TC)); } }
     /// <summary>
     /// For catcher's, stolen bases against
     /// </summary>
@@ -36,4 +40,20 @@ public class BaseballSoftballFieldingStat {
     /// For catcher's, caught stealing against (also included in Assists)
     /// </summary>
     public int CS { get; set; }
+    /// <summary>
+    /// Caught stealing percentage
+    /// </summary>
+    public string CSP { get { return String.Format("{0:#00.00}", ((double)(CS*100)/(double)(SB + CS))); }}
+    /// <summary>
+    /// Picked off
+    /// </summary>
+    public int PIK { get; set; }
+    /// <summary>
+    /// Advancement by catcher interference
+    /// </summary>
+    public int CI { get; set; }
+    /// <summary>
+    /// Pass balls
+    /// </summary>
+    public int PB { get; set; }
 }

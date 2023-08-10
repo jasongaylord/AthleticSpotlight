@@ -3,16 +3,18 @@ using YamlDotNet.Serialization.NamingConventions;
 
 namespace AthleticSpotlight.Models;
 
-public class Season {
-    public int Id { get; set; }
+public class Team {
     public int TeamId { get; set; }
     public string Name { get; set; }
-    public int Year {get; set; }
+    public string Sport { get; set; }
+    public string TeamType { get; set; }
+    public string TeamAge { get; set; }
 
-    public Season() {
-        Id = 0;
+    public Team() {
         TeamId = 0;
         Name = "";
-        Year = 2000;
+        Sport = "";
+        TeamType = "";
+        TeamAge = "";
     }
 }

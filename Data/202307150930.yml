@@ -19,17 +19,19 @@ Stats:
     BB: 1
     HBP: 0
     SAC: 1
+    ROE: 1
     SO: 0
     SF: 0
     2B: 0
     3B: 0
     HR: 0
-    SB: 0
-    CS: 1
+    SB: 1
+    CS: 0
   Fielding:
-    PO: 3
+    PO: 1
     A: 0
     E: 0
     DP: 0
+    CS: 1
   Position:
     C: 4

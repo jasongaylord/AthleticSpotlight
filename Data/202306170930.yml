@@ -19,7 +19,7 @@ Stats:
     BB: 1
     HBP: 0
     SO: 0
-    SOL: 0
+    KL: 0
     SAC: 0
     D3: 0
     SF: 0
@@ -33,5 +33,6 @@ Stats:
     A: 0
     E: 0
     DP: 0
+    SB: 3
   Position:
-    SS: 6
+    C: 5

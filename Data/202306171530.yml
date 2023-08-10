@@ -21,8 +21,9 @@ Stats:
     BB: 0
     HBP: 0
     SO: 0
-    SOL: 0
+    KL: 0
     SAC: 0
+    ROE: 1
     D3: 0
     SF: 0
     2B: 0
@@ -36,4 +37,4 @@ Stats:
     E: 0
     DP: 0
   Position:
-    SS: 5
+    SS: 4.1

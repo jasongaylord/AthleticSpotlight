@@ -20,6 +20,7 @@ Stats:
     RBI: 0
     BB: 0
     HBP: 0
+    FC: 1
     SO: 0
     SF: 0
     2B: 0
@@ -28,7 +29,7 @@ Stats:
     SB: 1
     CS: 0
   Fielding:
-    PO: 0
+    PO: 1
     A: 2
     E: 1
     DP: 0
