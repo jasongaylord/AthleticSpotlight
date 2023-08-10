@@ -30,7 +30,6 @@ public static class DataProcessor {
             Seasons.Add(season);
         }
 
-
         // Loop through other files
         foreach (string file in Directory.EnumerateFiles(directory, "*.yml"))
         {
@@ -57,11 +56,11 @@ public static class DataProcessor {
         }
 
         var TotalStat = new BaseballSoftballStat();
-        foreach (var tmpGame in BaseballSoftballGames) {
-            TotalStat.Hitting.AB += tmpGame.Stat.Hitting.AB;
-            TotalStat.Hitting.H += tmpGame.Stat.Hitting.H;
-        }
+        TotalStat.Hitting.AB = BaseballSoftballGames.Sum(s => s.Stat.Hitting.AB);
+        TotalStat.Hitting.H = BaseballSoftballGames.Sum(s => s.Stat.Hitting.H);
         Console.WriteLine(TotalStat.Hitting.AVG);
+
+        Console.WriteLine(BaseballSoftballGames[4].GameDetail.Recap);
 
         return true;
     }
