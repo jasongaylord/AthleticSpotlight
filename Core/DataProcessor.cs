@@ -44,12 +44,15 @@ public static class DataProcessor {
         }
 
         // Loop through other files
-        foreach (string file in Directory.EnumerateFiles(directory, "*.yml"))
+        var allFiles = Directory.GetFiles(directory, "*.yml", SearchOption.AllDirectories);
+        foreach (string f in allFiles) // Directory.EnumerateFiles(directory, "*.yml")
         {
-            var fileName = file.Replace(directory, "").ToLower();
+            var file = new FileInfo(f);
+
+            var fileName = file.Name; // file.Replace(directory, "").ToLower();
             var fileNameOnly = fileName.Replace(".yml", "");
 
-            var contents = File.ReadAllText(file);
+            var contents = File.ReadAllText(f); // File.ReadAllText(file)
             var sr = new StringReader(contents);
 
             // Process Game Files
@@ -164,6 +167,7 @@ public static class DataProcessor {
         Console.WriteLine("CF: " + TotalStat.Position.CF);
         Console.WriteLine("RF: " + TotalStat.Position.RF);
 
+        Console.WriteLine();
         Console.WriteLine("Games Played: " + BaseballSoftballGames.Count());
         //Console.WriteLine(BaseballSoftballGames[4].GameDetail.Recap);
 
