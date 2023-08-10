@@ -15,5 +15,6 @@ public class BaseballSoftballGame {
     public BaseballSoftballGame() {
         GameTime = new DateTime();
         GameDetail = new GameDetail();
+        Stat = new BaseballSoftballStat();
     }
 }
