@@ -74,44 +74,46 @@ public static class DataProcessor {
             }
         }
 
+        var games = BaseballSoftballGames.Where(w => w.Season == 1);
+
         var TotalStat = new BaseballSoftballStat();
-        TotalStat.Hitting.AB = BaseballSoftballGames.Sum(s => s.Stat.Hitting.AB);
-        TotalStat.Hitting.H = BaseballSoftballGames.Sum(s => s.Stat.Hitting.H);
-        TotalStat.Hitting.R = BaseballSoftballGames.Sum(s => s.Stat.Hitting.R);
-        TotalStat.Hitting.RBI = BaseballSoftballGames.Sum(s => s.Stat.Hitting.RBI);
-        TotalStat.Hitting.BB = BaseballSoftballGames.Sum(s => s.Stat.Hitting.BB);
-        TotalStat.Hitting.HBP = BaseballSoftballGames.Sum(s => s.Stat.Hitting.HBP);
-        TotalStat.Hitting.SAC = BaseballSoftballGames.Sum(s => s.Stat.Hitting.SAC);
-        TotalStat.Hitting.SO = BaseballSoftballGames.Sum(s => s.Stat.Hitting.SO);
-        TotalStat.Hitting.KL = BaseballSoftballGames.Sum(s => s.Stat.Hitting.KL);
-        TotalStat.Hitting.D3 = BaseballSoftballGames.Sum(s => s.Stat.Hitting.D3);
-        TotalStat.Hitting.ROE = BaseballSoftballGames.Sum(s => s.Stat.Hitting.ROE);
-        TotalStat.Hitting.FC = BaseballSoftballGames.Sum(s => s.Stat.Hitting.FC);
-        TotalStat.Hitting.Doubles = BaseballSoftballGames.Sum(s => s.Stat.Hitting.Doubles);
-        TotalStat.Hitting.Triples = BaseballSoftballGames.Sum(s => s.Stat.Hitting.Triples);
-        TotalStat.Hitting.HR = BaseballSoftballGames.Sum(s => s.Stat.Hitting.HR);
-        TotalStat.Hitting.SB = BaseballSoftballGames.Sum(s => s.Stat.Hitting.SB);
-        TotalStat.Hitting.CS = BaseballSoftballGames.Sum(s => s.Stat.Hitting.CS);
-        TotalStat.Hitting.PIK = BaseballSoftballGames.Sum(s => s.Stat.Hitting.PIK);
-        TotalStat.Fielding.PO = BaseballSoftballGames.Sum(s => s.Stat.Fielding.PO);
-        TotalStat.Fielding.A = BaseballSoftballGames.Sum(s => s.Stat.Fielding.A);
-        TotalStat.Fielding.E = BaseballSoftballGames.Sum(s => s.Stat.Fielding.E);
-        TotalStat.Fielding.DP = BaseballSoftballGames.Sum(s => s.Stat.Fielding.DP);
-        TotalStat.Fielding.TP = BaseballSoftballGames.Sum(s => s.Stat.Fielding.TP);
-        TotalStat.Fielding.SB = BaseballSoftballGames.Sum(s => s.Stat.Fielding.SB);
-        TotalStat.Fielding.CS = BaseballSoftballGames.Sum(s => s.Stat.Fielding.CS);
-        TotalStat.Fielding.PIK = BaseballSoftballGames.Sum(s => s.Stat.Fielding.PIK);
-        TotalStat.Fielding.CI = BaseballSoftballGames.Sum(s => s.Stat.Fielding.CI);
-        TotalStat.Fielding.PB = BaseballSoftballGames.Sum(s => s.Stat.Fielding.PB);
-        TotalStat.Position.P = BaseballSoftballGames.Sum(s => s.Stat.Position.P);
-        TotalStat.Position.C = BaseballSoftballGames.Sum(s => s.Stat.Position.C);
-        TotalStat.Position.First = BaseballSoftballGames.Sum(s => s.Stat.Position.First);
-        TotalStat.Position.Second = BaseballSoftballGames.Sum(s => s.Stat.Position.Second);
-        TotalStat.Position.Third = BaseballSoftballGames.Sum(s => s.Stat.Position.Third);
-        TotalStat.Position.SS = BaseballSoftballGames.Sum(s => s.Stat.Position.SS);
-        TotalStat.Position.LF = BaseballSoftballGames.Sum(s => s.Stat.Position.LF);
-        TotalStat.Position.CF = BaseballSoftballGames.Sum(s => s.Stat.Position.CF);
-        TotalStat.Position.RF = BaseballSoftballGames.Sum(s => s.Stat.Position.RF);
+        TotalStat.Hitting.AB = games.Sum(s => s.Stat.Hitting.AB);
+        TotalStat.Hitting.H = games.Sum(s => s.Stat.Hitting.H);
+        TotalStat.Hitting.R = games.Sum(s => s.Stat.Hitting.R);
+        TotalStat.Hitting.RBI = games.Sum(s => s.Stat.Hitting.RBI);
+        TotalStat.Hitting.BB = games.Sum(s => s.Stat.Hitting.BB);
+        TotalStat.Hitting.HBP = games.Sum(s => s.Stat.Hitting.HBP);
+        TotalStat.Hitting.SAC = games.Sum(s => s.Stat.Hitting.SAC);
+        TotalStat.Hitting.SO = games.Sum(s => s.Stat.Hitting.SO);
+        TotalStat.Hitting.KL = games.Sum(s => s.Stat.Hitting.KL);
+        TotalStat.Hitting.D3 = games.Sum(s => s.Stat.Hitting.D3);
+        TotalStat.Hitting.ROE = games.Sum(s => s.Stat.Hitting.ROE);
+        TotalStat.Hitting.FC = games.Sum(s => s.Stat.Hitting.FC);
+        TotalStat.Hitting.Doubles = games.Sum(s => s.Stat.Hitting.Doubles);
+        TotalStat.Hitting.Triples = games.Sum(s => s.Stat.Hitting.Triples);
+        TotalStat.Hitting.HR = games.Sum(s => s.Stat.Hitting.HR);
+        TotalStat.Hitting.SB = games.Sum(s => s.Stat.Hitting.SB);
+        TotalStat.Hitting.CS = games.Sum(s => s.Stat.Hitting.CS);
+        TotalStat.Hitting.PIK = games.Sum(s => s.Stat.Hitting.PIK);
+        TotalStat.Fielding.PO = games.Sum(s => s.Stat.Fielding.PO);
+        TotalStat.Fielding.A = games.Sum(s => s.Stat.Fielding.A);
+        TotalStat.Fielding.E = games.Sum(s => s.Stat.Fielding.E);
+        TotalStat.Fielding.DP = games.Sum(s => s.Stat.Fielding.DP);
+        TotalStat.Fielding.TP = games.Sum(s => s.Stat.Fielding.TP);
+        TotalStat.Fielding.SB = games.Sum(s => s.Stat.Fielding.SB);
+        TotalStat.Fielding.CS = games.Sum(s => s.Stat.Fielding.CS);
+        TotalStat.Fielding.PIK = games.Sum(s => s.Stat.Fielding.PIK);
+        TotalStat.Fielding.CI = games.Sum(s => s.Stat.Fielding.CI);
+        TotalStat.Fielding.PB = games.Sum(s => s.Stat.Fielding.PB);
+        TotalStat.Position.P = games.Sum(s => s.Stat.Position.P);
+        TotalStat.Position.C = games.Sum(s => s.Stat.Position.C);
+        TotalStat.Position.First = games.Sum(s => s.Stat.Position.First);
+        TotalStat.Position.Second = games.Sum(s => s.Stat.Position.Second);
+        TotalStat.Position.Third = games.Sum(s => s.Stat.Position.Third);
+        TotalStat.Position.SS = games.Sum(s => s.Stat.Position.SS);
+        TotalStat.Position.LF = games.Sum(s => s.Stat.Position.LF);
+        TotalStat.Position.CF = games.Sum(s => s.Stat.Position.CF);
+        TotalStat.Position.RF = games.Sum(s => s.Stat.Position.RF);
 
         Console.WriteLine("Hitting");
         Console.WriteLine("PA: " + TotalStat.Hitting.PA);
@@ -168,7 +170,7 @@ public static class DataProcessor {
         Console.WriteLine("RF: " + TotalStat.Position.RF);
 
         Console.WriteLine();
-        Console.WriteLine("Games Played: " + BaseballSoftballGames.Count());
+        Console.WriteLine("Games Played: " + games.Count());
         //Console.WriteLine(BaseballSoftballGames[4].GameDetail.Recap);
 
         return true;
