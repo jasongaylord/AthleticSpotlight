@@ -74,7 +74,7 @@ public static class DataProcessor {
             }
         }
 
-        var games = BaseballSoftballGames.Where(w => w.Season == 1);
+        var games = BaseballSoftballGames; //.Where(w => w.Season == 1);
 
         var TotalStat = new BaseballSoftballStat();
         TotalStat.Hitting.AB = games.Sum(s => s.Stat.Hitting.AB);
@@ -106,7 +106,7 @@ public static class DataProcessor {
         TotalStat.Fielding.CI = games.Sum(s => s.Stat.Fielding.CI);
         TotalStat.Fielding.PB = games.Sum(s => s.Stat.Fielding.PB);
         TotalStat.Position.P = games.Sum(s => s.Stat.Position.P);
-        TotalStat.Position.C = games.Sum(s => s.Stat.Position.C);
+        TotalStat.Position.C = games.InningSum(s => s.Stat.Position.C);
         TotalStat.Position.First = games.Sum(s => s.Stat.Position.First);
         TotalStat.Position.Second = games.Sum(s => s.Stat.Position.Second);
         TotalStat.Position.Third = games.Sum(s => s.Stat.Position.Third);
