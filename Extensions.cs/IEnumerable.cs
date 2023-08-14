@@ -6,22 +6,20 @@ namespace AthleticSpotlight.Core;
 
 public static class IEnumerableExtensions {
     public static decimal InningSum<TSource>(this IEnumerable<TSource> source, Func<TSource, decimal> selector) {
-        var filteredEnumerable = Enumerable.Select(source, selector);
+        decimal totalInnings = 0m;
+        decimal totalFractionalInnings = 0m;
 
-        decimal fractions = 0m;
-        decimal innings = 0m;
-
-        foreach (decimal val in filteredEnumerable) {
+        foreach (decimal val in source.Select(selector)) {
             int inning = (int)val;
-            fractions = (val - inning) + fractions;
+            decimal fraction = val - inning;
 
-            innings += inning;
+            totalInnings += inning;
+            totalFractionalInnings += fraction;
         }
 
-        var bumpUp = (fractions / 3) * 10;
-        innings += (int)bumpUp;
-        decimal remainder = ((fractions * 10) - ((int)bumpUp * 3)) / 10;
+        decimal bumpUp = Math.Floor(totalFractionalInnings / 0.3m);
+        decimal remainder = totalFractionalInnings - (bumpUp * 0.3m);
 
-        return innings + remainder;
+        return totalInnings + bumpUp + remainder;
     }
 }
