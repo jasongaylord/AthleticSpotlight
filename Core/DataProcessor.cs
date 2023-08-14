@@ -45,14 +45,14 @@ public static class DataProcessor {
 
         // Loop through other files
         var allFiles = Directory.GetFiles(directory, "*.yml", SearchOption.AllDirectories);
-        foreach (string f in allFiles) // Directory.EnumerateFiles(directory, "*.yml")
+        foreach (string f in allFiles)
         {
             var file = new FileInfo(f);
 
-            var fileName = file.Name; // file.Replace(directory, "").ToLower();
+            var fileName = file.Name;
             var fileNameOnly = fileName.Replace(".yml", "");
 
-            var contents = File.ReadAllText(f); // File.ReadAllText(file)
+            var contents = File.ReadAllText(f);
             var sr = new StringReader(contents);
 
             // Process Game Files
@@ -105,15 +105,15 @@ public static class DataProcessor {
         TotalStat.Fielding.PIK = games.Sum(s => s.Stat.Fielding.PIK);
         TotalStat.Fielding.CI = games.Sum(s => s.Stat.Fielding.CI);
         TotalStat.Fielding.PB = games.Sum(s => s.Stat.Fielding.PB);
-        TotalStat.Position.P = games.Sum(s => s.Stat.Position.P);
+        TotalStat.Position.P = games.InningSum(s => s.Stat.Position.P);
         TotalStat.Position.C = games.InningSum(s => s.Stat.Position.C);
-        TotalStat.Position.First = games.Sum(s => s.Stat.Position.First);
-        TotalStat.Position.Second = games.Sum(s => s.Stat.Position.Second);
-        TotalStat.Position.Third = games.Sum(s => s.Stat.Position.Third);
-        TotalStat.Position.SS = games.Sum(s => s.Stat.Position.SS);
-        TotalStat.Position.LF = games.Sum(s => s.Stat.Position.LF);
-        TotalStat.Position.CF = games.Sum(s => s.Stat.Position.CF);
-        TotalStat.Position.RF = games.Sum(s => s.Stat.Position.RF);
+        TotalStat.Position.First = games.InningSum(s => s.Stat.Position.First);
+        TotalStat.Position.Second = games.InningSum(s => s.Stat.Position.Second);
+        TotalStat.Position.Third = games.InningSum(s => s.Stat.Position.Third);
+        TotalStat.Position.SS = games.InningSum(s => s.Stat.Position.SS);
+        TotalStat.Position.LF = games.InningSum(s => s.Stat.Position.LF);
+        TotalStat.Position.CF = games.InningSum(s => s.Stat.Position.CF);
+        TotalStat.Position.RF = games.InningSum(s => s.Stat.Position.RF);
 
         Console.WriteLine("Hitting");
         Console.WriteLine("PA: " + TotalStat.Hitting.PA);

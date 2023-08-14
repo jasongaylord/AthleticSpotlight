@@ -7,13 +7,13 @@ namespace AthleticSpotlight.Models;
 /// Captures the number of innings at a position
 /// </summary>
 public class BaseballSoftballPositionStat {
-    public double P { get; set; }
-    public double C { get; set; }
-    public double First { get; set; }
-    public double Second { get; set; }
-    public double Third { get; set; }
-    public double SS { get; set; }
-    public double LF { get; set; }
-    public double CF { get; set; }
-    public double RF { get; set; }
+    public decimal P { get; set; }
+    public decimal C { get; set; }
+    public decimal First { get; set; }
+    public decimal Second { get; set; }
+    public decimal Third { get; set; }
+    public decimal SS { get; set; }
+    public decimal LF { get; set; }
+    public decimal CF { get; set; }
+    public decimal RF { get; set; }
 }

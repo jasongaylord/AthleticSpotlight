@@ -5,26 +5,22 @@ using System.Collections.Generic;
 namespace AthleticSpotlight.Core;
 
 public static class IEnumerableExtensions {
-    public static double InningSum<TSource>(this IEnumerable<TSource> source, Func<TSource, double> selector) {
+    public static decimal InningSum<TSource>(this IEnumerable<TSource> source, Func<TSource, decimal> selector) {
         var filteredEnumerable = Enumerable.Select(source, selector);
 
-        double fractions = 0;
-        double innings = 0;
+        decimal fractions = 0m;
+        decimal innings = 0m;
 
-        foreach (double val in filteredEnumerable) {
-            Console.WriteLine(val);
+        foreach (decimal val in filteredEnumerable) {
             int inning = (int)val;
-            fractions += val - inning;
+            fractions = (val - inning) + fractions;
 
             innings += inning;
         }
 
         var bumpUp = (fractions / 3) * 10;
         innings += (int)bumpUp;
-        double remainder = bumpUp - (int)bumpUp;
-
-        Console.WriteLine("Innings: " + innings);
-        Console.WriteLine("Remainder: " + remainder);
+        decimal remainder = bumpUp - (int)bumpUp;
 
         return innings;
     }
