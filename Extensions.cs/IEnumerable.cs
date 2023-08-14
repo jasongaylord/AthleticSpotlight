@@ -20,8 +20,8 @@ public static class IEnumerableExtensions {
 
         var bumpUp = (fractions / 3) * 10;
         innings += (int)bumpUp;
-        decimal remainder = bumpUp - (int)bumpUp;
+        decimal remainder = ((fractions * 10) - ((int)bumpUp * 3)) / 10;
 
-        return innings;
+        return innings + remainder;
     }
 }
