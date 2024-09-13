@@ -8,3 +8,10 @@
 /obj
 /output
 /temp
+
+# Custom Folders
+/asbuild/bin
+/asbuild/cache
+/asbuild/obj
+/asbuild/output
+/asbuild/temp
