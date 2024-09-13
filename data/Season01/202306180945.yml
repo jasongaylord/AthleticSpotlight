@@ -1,0 +1,38 @@
+Season: 1
+Detail:
+  Opponent: Abington Wildcats 14u
+  Home: N
+  Result: L
+  OpponentScore: 9
+  TeamScore: 8
+  Recap: Team lost to the eventual champion of the tournament in extra innings and with 2 outs.
+  PlayRecap: |
+    Sacrifice bunt to the catcher (Ball 1, In Play).
+    Singles on a hard ground ball to shortstop (In Play).
+    Lines out to right fielder (Ball 1, Ball 2, Strike 1 Swinging, In Play).
+    Sacrifice fly to left fielder scoring the runner (Strike 1 looking, In Play).
+Stats:
+  Hitting:
+    AB: 2
+    R: 1
+    H: 1
+    RBI: 1
+    BB: 0
+    HBP: 0
+    SO: 0
+    KL: 0
+    SAC: 2
+    D3: 0
+    SF: 0
+    2B: 0
+    3B: 0
+    HR: 0
+    SB: 0
+    CS: 0
+  Fielding:
+    PO: 1
+    A: 0
+    E: 0
+    DP: 0
+  Position:
+    SS: 6.2

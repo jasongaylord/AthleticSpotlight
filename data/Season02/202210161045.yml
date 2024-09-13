@@ -1,0 +1,40 @@
+Season: 2
+Detail:
+  Opponent: Forks Thunder 14u - Swartz
+  Home: Y
+  Result: W
+  OpponentScore: 9
+  TeamScore: 13
+  Recap: Addison Gaylord contributed in the big inning with an RBI.
+  PlayRecap: |
+    Lines out to shortstop (Strike 1 Looking, In Play).
+    Ground Ball to the shortstop and reaches on an error (Ball 1, Ball 2, In Play).
+    Flies out to the center fielder (Ball 1, In Play). 
+    Reached on an error on a pop fly to the left fielder (Foul, Ball 1, In Play).
+Stats:
+  Hitting:
+    AB: 3
+    R: 1
+    H: 1
+    RBI: 1
+    BB: 0
+    HBP: 0
+    SO: 0
+    KL: 0
+    SAC: 0
+    ROE: 2
+    D3: 0
+    SF: 0
+    2B: 0
+    3B: 0
+    HR: 0
+    SB: 0
+    CS: 0
+  Fielding:
+    PO: 6
+    A: 0
+    E: 0
+    DP: 0
+    SB: 2
+  Position:
+    C: 5

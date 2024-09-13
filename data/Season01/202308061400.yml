@@ -1,0 +1,38 @@
+Season: 1
+Detail:
+  Opponent: LAC St Louis Lions 14u
+  Home: Y
+  Result: L
+  OpponentScore: 5
+  TeamScore: 4
+  Recap: | 
+    Addison Gaylord lead Max Impact White 14u with two hits in three at bats. Addison also had two stolen bases. In the field, Addison contributed to both put outs in Max Impact's only double play of the game.
+
+    Max Impact White 14u took second place in the weekend tournament.
+  PlayRecap: |
+    Singles on a fly ball to right fielder (Foul, In Play).
+    Hits a ground ball and reaches on a throwing error by third baseman, advancing to second (In Play).
+    Singles on a line drive to right fielder (Foul, Ball 1, Ball 2, Foul, In Play).
+Stats:
+  Hitting:
+    AB: 3
+    R: 1
+    H: 2
+    RBI: 1
+    BB: 0
+    HBP: 0
+    ROE: 1
+    SO: 0
+    SF: 0
+    2B: 0
+    3B: 0
+    HR: 0
+    SB: 2
+    CS: 0
+  Fielding:
+    PO: 1
+    A: 1
+    E: 0
+    DP: 1
+  Position:
+    SS: 6

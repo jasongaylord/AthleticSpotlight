@@ -1,0 +1,33 @@
+Season: 1
+Detail:
+  Opponent: Lady Diamond Pros 14u
+  Home: Y
+  Result: W
+  OpponentScore: 1
+  TeamScore: 13
+  Recap: Addison Gaylord singled, scoring one run and ending the game. She also walked in the first inning and scored the team's first run.
+  PlayRecap: |
+    Walks (Ball 1, Ball 2, Ball 3, Strike 1 Looking, Strike 2 Looking, Ball 4).
+    Grounds out to shortstop (Ball 1, Strike 1 Swinging, Ball 2, Foul, In Play).
+    Singles on a line drive to left fielder (In Play).
+Stats:
+  Hitting:
+    AB: 2
+    R: 1
+    H: 1
+    RBI: 1
+    BB: 1
+    HBP: 0
+    SO: 0
+    SF: 0
+    2B: 0
+    3B: 0
+    HR: 0
+    SB: 1
+    CS: 0
+  Fielding:
+    PO: 2
+    A: 1
+    E: 1
+  Position:
+    SS: 3

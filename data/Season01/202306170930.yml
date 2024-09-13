@@ -1,0 +1,38 @@
+Season: 1
+Detail:
+  Opponent: Adrenaline Blue 14u
+  Home: N
+  Result: W
+  OpponentScore: 1
+  TeamScore: 7
+  Recap: 
+  PlayRecap: |
+    Lined out to the pitcher (Foul, Foul, Ball 1, Ball 2, In Play).
+    Walks (Ball 1, Strike 1 swinging, Ball 2, Foul, ball 3, Ball 4).
+    Tripled on a hard ground ball to right fielder (Ball 1, Ball 2, Strike 1 Looking, In Play).
+Stats:
+  Hitting:
+    AB: 2
+    R: 1
+    H: 1
+    RBI: 0
+    BB: 1
+    HBP: 0
+    SO: 0
+    KL: 0
+    SAC: 0
+    D3: 0
+    SF: 0
+    2B: 0
+    3B: 1
+    HR: 0
+    SB: 1
+    CS: 0
+  Fielding:
+    PO: 7
+    A: 0
+    E: 0
+    DP: 0
+    SB: 3
+  Position:
+    C: 5

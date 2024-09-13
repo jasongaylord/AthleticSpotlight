@@ -1,0 +1,37 @@
+Season: 2
+Detail:
+  Opponent: Forks Thunder 14u - Swartz
+  Home: Y
+  Result: W
+  OpponentScore: 3
+  TeamScore: 4
+  Recap:
+  PlayRecap: |
+    Grounds out to the second baseman (Strike 1 looking, Ball 1, Ball 2, In Play).
+    Flies out to the left fielder (Strike 1 Swinging, Foul, Ball 1, Foul, In Play).
+    Pops out to the shortstop (Ball 1, In Play).
+Stats:
+  Hitting:
+    AB: 3
+    R: 0
+    H: 0
+    RBI: 0
+    BB: 0
+    HBP: 0
+    SO: 0
+    KL: 0
+    SAC: 0
+    D3: 0
+    SF: 0
+    2B: 0
+    3B: 0
+    HR: 0
+    SB: 0
+    CS: 0
+  Fielding:
+    PO: 1
+    A: 3
+    E: 0
+    DP: 0
+  Position:
+    SS: 4.2

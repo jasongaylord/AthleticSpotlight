@@ -1,0 +1,38 @@
+Season: 2
+Detail:
+  Opponent: Forks Thunder 14u - Cleaver
+  Home: Y
+  Result: W
+  OpponentScore: 3
+  TeamScore: 12
+  Recap: Max Impact White 14u wins and advances to the championship game.
+  PlayRecap: |
+    Bunts out to the third baseman (Foul, In Play).
+    Singles on a line drive to the center fielder (Foul, Strike 2 looking, In Play).
+    Flies out to shortstop (Ball 1, Foul, In Play).
+Stats:
+  Hitting:
+    AB: 4
+    R: 2
+    H: 0
+    RBI: 0
+    BB: 0
+    HBP: 0
+    SO: 0
+    KL: 0
+    SAC: 0
+    D3: 0
+    SF: 0
+    2B: 0
+    3B: 0
+    HR: 0
+    SB: 2
+    CS: 0
+  Fielding:
+    PO: 7
+    A: 0
+    E: 0
+    DP: 0
+    SB: 1
+  Position:
+    C: 4

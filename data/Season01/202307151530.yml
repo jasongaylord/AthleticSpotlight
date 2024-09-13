@@ -1,0 +1,36 @@
+Season: 1
+Detail:
+  Opponent: PAL Enforcers
+  Home: Y
+  Result: L
+  OpponentScore: 5
+  TeamScore: 3
+  Recap: | 
+    The team finished 2-1 on Saturday and headed into Sunday as the 4 seed.
+  PlayRecap: |
+    Flies out to left field (Strike 1 looking, In Play).
+    Flies out to first baseman (Strike 1 looking, Ball 1, In Play).
+    Lines out to center field (In Play).
+Stats:
+  Hitting:
+    AB: 3
+    R: 0
+    H: 0
+    RBI: 0
+    BB: 0
+    HBP: 0
+    SO: 0
+    SF: 0
+    2B: 0
+    3B: 0
+    HR: 0
+    SB: 0
+    CS: 0
+  Fielding:
+    PO: 3
+    A: 0
+    E: 0
+    DP: 0
+  Position:
+    SS: 2.2
+    C: 2.1

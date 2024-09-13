@@ -1,0 +1,37 @@
+Season: 1
+Detail:
+  Opponent: BDE Regional 14u
+  Home: Y
+  Result: W
+  OpponentScore: 2
+  TeamScore: 12
+  Recap: 
+  PlayRecap: |
+    Hard ground ball and reaches on an error by third baseman (Ball 1, Strike 1 looking, Strike 2 swinging, Ball 2, In Play).
+    Ground out to shortstop scoring runner at 3rd (In play).
+    Walks (Strike 1 looking, Ball 1, Foul, Ball 2, Ball 3, Foul, Foul, Ball 4)
+Stats:
+  Hitting:
+    AB: 2
+    R: 1
+    H: 0
+    RBI: 1
+    BB: 1
+    HBP: 0
+    SAC: 1
+    ROE: 1
+    SO: 0
+    SF: 0
+    2B: 0
+    3B: 0
+    HR: 0
+    SB: 1
+    CS: 0
+  Fielding:
+    PO: 1
+    A: 0
+    E: 0
+    DP: 0
+    CS: 1
+  Position:
+    C: 4

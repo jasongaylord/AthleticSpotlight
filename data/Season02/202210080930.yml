@@ -1,0 +1,40 @@
+Season: 2
+Detail:
+  Opponent: NJ Spirit 14u
+  Home: N
+  Result: L
+  OpponentScore: 3
+  TeamScore: 4
+  Recap: |
+    Addison Gaylord went 1-for-2 at the plate.
+  PlayRecap: |
+    Walk (Strike Looking, Ball 1, Ball 2, Ball 3, Ball 4).
+    Singles on a line drive to the left fielder (Strike Looking, Ball 1, Ball 2, Foul, In Play).
+    Flies out to the right fielder (Strike Looking, In Play).
+Stats:
+  Hitting:
+    AB: 2
+    R: 1
+    H: 1
+    RBI: 1
+    BB: 1
+    HBP: 0
+    SO: 0
+    KL: 0
+    SAC: 0
+    D3: 0
+    SF: 0
+    2B: 0
+    3B: 0
+    HR: 0
+    SB: 2
+    CS: 0
+  Fielding:
+    PO: 2
+    A: 0
+    E: 0
+    DP: 0
+    SB: 1
+    PB: 0
+  Position:
+    C: 4

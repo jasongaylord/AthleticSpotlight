@@ -1,0 +1,38 @@
+Season: 1
+Detail:
+  Opponent: Bethlehem Steal 14u
+  Home: N
+  Result: W
+  OpponentScore: 5
+  TeamScore: 6
+  Recap: |
+    Addison Gaylord collected one hit for Max Impact 14u.
+  PlayRecap: |
+    Singles on a fly ball to right fielder and advances to 2nd on error (Ball 1, Strike 1 looking, Ball 2, Foul, In Play).
+    Flies out to second baseman (In Play).
+    Strikes out swinging (Ball 1, Ball 2, Strike 1 Looking, Strike 2 Looking, Strike 3 Swinging).
+Stats:
+  Hitting:
+    AB: 3
+    R: 1
+    H: 1
+    RBI: 0
+    BB: 0
+    HBP: 0
+    SO: 1
+    KL: 0
+    SAC: 0
+    D3: 0
+    SF: 0
+    2B: 0
+    3B: 0
+    HR: 0
+    SB: 0
+    CS: 0
+  Fielding:
+    PO: 1
+    A: 1
+    E: 1
+    DP: 1
+  Position:
+    SS: 5
